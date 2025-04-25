@@ -1,0 +1,119 @@
+.doctor-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.doctor-card-image-section {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.doctor-card-details-section {
+  flex-grow: 1;
+  margin-right: 20px;
+  .doctor-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  .doctor-specialty,
+  .doctor-experience,
+  .clinic-location-info,
+  .doctor-mode,
+  .doctor-fee-center {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  .doctor-fee-center {
+    font-weight: bold;
+    color: #333;
+  }
+  .clinic-name {
+    font-weight: 500;
+  }
+}
+
+.doctor-card-actions-section {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 150px;
+}
+
+.doctor-availability {
+  font-size: 0.9em;
+  color: #38a169;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.book-appointment-btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.book-appointment-btn:hover {
+  background-color: #2980b9;
+}
+
+.no-booking-fee {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.doctor-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #eee;
+}
+
+.image-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.icon-clinic,
+.icon-location {
+  margin-right: 5px;
+}
+
+.doctor-list-section {
+  padding: 20px;
+}
+
+.doctor-grid {
+}
+
+.no-doctors-message {
+  text-align: center;
+  padding: 40px;
+  color: #777;
+}
